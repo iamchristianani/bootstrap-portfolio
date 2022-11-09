@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.my-nav {
+  width: 100%;
+}
+
+.nav-link {
+  color: #344563;
+}
+
+.hero {
+  background-image: url(../img/header-llustration-desktop@2x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: 5px;
+  height: 100vh;
+}
+
+.small-text {
+  color: #172b4d;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  padding: 0 24px 0 24px;
+}
+
+.social-icons {
+  color: #344563;
+}
+
+.down-arrow-cont {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dfe1e6;
+  border-radius: 50%;
+}
+
+/** WORK SECTION **/
+
+.work-card {
+  width: 327px;
+}
+
+.work-title-line {
+  height: 4px;
+  width: 48px;
+  background-color: #36b37e;
+  border-radius: 24px;
+}
+
+.work-card-pr-lang li {
+  list-style: none;
+  padding: 8px 12px;
+  border-radius: 2px;
+  background-color: #ebf0ee;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #3a4a42;
+}
+
+/** ABOUT SECTION **/
+
+.about-with-bg {
+  background-image: url(../img/illustration-about-me-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-card {
+  width: 327px;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  margin: 30px 0 20px 0;
+  border: 1px solid #c1c7d0;
+}
+
+.about-card-logo {
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 54px 0;
+}
+
+.about-card-pr-lang {
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #36b37e;
+}
